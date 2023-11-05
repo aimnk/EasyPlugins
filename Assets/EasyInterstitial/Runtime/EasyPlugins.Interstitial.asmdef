@@ -1,8 +1,9 @@
 {
-    "name": "EasyPlugins.SceneLoader",
+    "name": "EasyPlugins.Interstitial",
     "rootNamespace": "",
     "references": [
-        "GUID:7668f48b30ce2408e95cd92df8e748ce"
+        "UniTask",
+        "EasyUtils"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
