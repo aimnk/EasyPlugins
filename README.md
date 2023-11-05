@@ -17,5 +17,5 @@ https://github.com/aimnk/EasyPlugins.git?path=EasySceneLoader
 ```
 ### Easy Utils
 ```
-https://github.com/aimnk/EasyPlugins.git?path=EasyUtils
+https://github.com/aimnk/EasyPlugins.git?path=Utils
 ```

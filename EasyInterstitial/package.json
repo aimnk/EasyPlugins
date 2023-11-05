@@ -4,4 +4,6 @@
     "version": "1.0.0",
     "author": "Aimnk Dev",
     "description": "Ads plugin",
+  "dependencies": {
+  }
 }
