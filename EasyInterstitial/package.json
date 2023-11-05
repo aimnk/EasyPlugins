@@ -4,7 +4,4 @@
     "version": "1.0.0",
     "author": "Aimnk Dev",
     "description": "Ads plugin",
-  "dependencies": {
-    "com.cysharp.unitask": "2.5.0"
-  }
 }
