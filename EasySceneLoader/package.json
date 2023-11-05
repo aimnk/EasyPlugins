@@ -1,0 +1,9 @@
+{
+ "name": "com.aimnk.easysceneloader",
+    "displayName": "Easy SceneLoader",
+    "version": "1.0.0",
+    "author": "Aimnk Dev",
+    "description": "Scene Loader",
+  "dependencies": {
+  }
+}

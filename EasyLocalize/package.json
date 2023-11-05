@@ -1,0 +1,9 @@
+{
+ "name": "com.aimnk.easylocalize",
+    "displayName": "Easy Localise",
+    "version": "1.0.0",
+    "author": "Aimnk Dev",
+    "description": "Localization plugin",
+  "dependencies": {
+  }
+}

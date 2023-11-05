@@ -1,0 +1,9 @@
+{
+ "name": "com.aimnk.savesystem",
+    "displayName": "Easy SaveSystem",
+    "version": "1.0.0",
+    "author": "Aimnk Dev",
+    "description": "Save System",
+  "dependencies": {
+  }
+}

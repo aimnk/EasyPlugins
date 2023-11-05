@@ -1,0 +1,17 @@
+{
+    "name": "EasyPlugins.Interstitial",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7668f48b30ce2408e95cd92df8e748ce",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

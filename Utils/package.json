@@ -1,0 +1,9 @@
+{
+ "name": "com.aimnk.easyutils",
+    "displayName": "Easy Utils",
+    "version": "1.0.0",
+    "author": "Aimnk Dev",
+    "description": "Utils",
+  "dependencies": {
+  }
+}

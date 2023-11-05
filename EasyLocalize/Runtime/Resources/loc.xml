@@ -1,0 +1,222 @@
+<localize>
+    <key id="Load Last">
+        <ru>Продолжить</ru>
+        <en>Continue</en>
+    </key>
+    <key id="New Game">
+        <ru>Новая игра</ru>
+        <en>New Game</en>
+    </key>
+    <key id="Main Menu">
+        <ru>Главное меню</ru>
+        <en>MAIN MENU</en>
+    </key>
+    <key id="Save">
+        <ru>Сохранить</ru>
+        <en>Save</en>
+    </key>
+    <key id="SETTINGS">
+        <ru>Настройки</ru>
+        <en>Settings</en>
+    </key>
+    <key id="MENU">
+        <ru>Меню</ru>
+        <en>Menu</en>
+    </key>
+    <key id="PAUSE">
+        <ru>Пауза</ru>
+        <en>Pause</en>
+    </key>
+    <key id="LOADING">
+        <ru>Загрузка</ru>
+        <en>Loading</en>
+    </key>
+    <key id="GIRL">
+        <ru>Девушка</ru>
+        <en>Girl</en>
+    </key>
+    <key id="UPGRADE">
+        <ru>АПГРЕЙД</ru>
+        <en>UPGRADE</en>
+    </key>
+    <key id="START GAME">
+        <ru>Начать игру</ru>
+        <en>Start Game</en>
+    </key>
+    <key id="SELECT DIFFICULT">
+        <ru>Выберите сложность:</ru>
+        <en>SELECT DIFFICULT:</en>
+    </key>
+    <key id="Easy">
+        <ru>Легкая</ru>
+        <en>Easy</en>
+    </key>
+    <key id="Medium">
+        <ru>Средняя</ru>
+        <en>Medium</en>
+    </key>
+    <key id="Hard">
+        <ru>Сложная</ru>
+        <en>Hard</en>
+    </key>
+    <key id="MUSIC">
+        <ru>Музыка</ru>
+        <en>Music</en>
+    </key>
+    <key id="SOUND">
+        <ru>Звук</ru>
+        <en>Sound</en>
+    </key>
+    <key id="PRIVACY POLICY">
+        <ru>Политика конфиденциальности</ru>
+        <en>Privacy Policy</en>
+    </key>
+    <key id="MORE GAMES">
+        <ru>Наши игры</ru>
+        <en>More Games</en>
+    </key>
+    <key id="BUY">
+        <ru>Купить</ru>
+        <en>Buy</en>
+    </key>
+    <key id="INSTALL">
+        <ru>Установить</ru>
+        <en>Install</en>
+    </key>
+    <key id="INSTALLED">
+        <ru>Установлено</ru>
+        <en>Installed</en>
+    </key>
+    <key id="GET">
+        <ru>Получить</ru>
+        <en>Get</en>
+    </key>
+    <key id="DEFAULT">
+        <ru>СТАНДАРТНЫЙ</ru>
+        <en>DEFAULT</en>
+    </key>
+    <key id="MELEE">
+        <ru>Ближний бой</ru>
+        <en>Melee</en>
+    </key>
+    <key id="RANGE">
+        <ru>Дальний бой</ru>
+        <en>Distant battle</en>
+    </key>
+    <key id="CONTINUE">
+        <ru>Продолжить</ru>
+        <en>Continue</en>
+    </key>
+    <key id="RECORD">
+        <ru>Рекорд:</ru>
+        <en>Record:</en>
+    </key>
+    <key id="RECORD">
+        <ru>Рекорд:</ru>
+        <en>Record:</en>
+    </key>
+    <key id="REWARD">
+        <ru>Награда:</ru>
+        <en>Reward:</en>
+    </key>
+    <key id="REWARDX2">
+        <ru>Награда x2</ru>
+        <en>Reward x2</en>
+    </key>
+    <key id="RETRY">
+        <ru>Заново</ru>
+        <en>Retry</en>
+    </key>
+    <key id="LOSE">
+        <ru>Поражение</ru>
+        <en>Lose</en>
+    </key>
+    <key id="DISTANCE COMPLETED">
+        <ru>ПРОЙДЕНО РАССТОЯНИЕ:</ru>
+        <en>DISTANCE COMPLETED:</en>
+    </key>
+    <key id="SWIPE UP FOR JUMP">
+        <ru>СВАЙПНИТЕ ВВЕРХ ДЛЯ ПРЫЖКА</ru>
+        <en>SWIPE UP FOR JUMP</en>
+    </key>
+    <key id="SWIPE DOWN FOR SLIDE">
+        <ru>СВАЙПНИТЕ ВНИЗ ДЛЯ ПРИСЕДАНИЯ</ru>
+        <en>SWIPE DOWN FOR SLIDE</en>
+    </key>
+    <key id="SWIPE RIGHT OR LEFT FOR MOVEMENT">
+        <ru>СВАЙПНИТЕ ВПРАВО ИЛИ ВЛЕВО ДЛЯ ПЕРЕМЕЩЕНИЯ</ru>
+        <en>SWIPE RIGHT OR LEFT FOR MOVEMENT</en>
+    </key>
+    <key id="TAP TO ATTACK">
+        <ru>НАЖМИТЕ ДЛЯ АТАКИ</ru>
+        <en>TAP TO ATTACK</en>
+    </key>
+    <key id="TUTORIAL COMPLETE">
+        <ru>ОБУЧЕНИЕ ЗАВЕРШЕНО</ru>
+        <en>TUTORIAL COMPLETE</en>
+    </key>
+    <key id="USE KEYBOARD BUTTON A OR D FOR MOVEMENT">
+        <ru>ИСПОЛЬЗУЙТЕ КНОПКИ "A(Ф)" ИЛИ "D(В)" НА КЛАВИАТУРЕ ДЛЯ ПЕРЕМЕЩЕНИЯ</ru>
+        <en>USE KEYBOARD BUTTON "A" OR "D" FOR MOVEMENT</en>
+    </key>
+    <key id="USE KEYBOARD BUTTON SPACE FOR JUMP">
+        <ru>ИСПОЛЬЗУЙТЕ КНОПКУ "ПРОБЕЛ" НА КЛАВИАТУРЕ ДЛЯ ПРЫЖКА</ru>
+        <en>USE KEYBOARD BUTTON "SPACE" FOR JUMP</en>
+    </key>
+    <key id="USE KEYBOARD BUTTON C FOR SLIDE">
+        <ru>ИСПОЛЬЗУЙТЕ КНОПКУ "C" НА КЛАВИАТУРЕ ДЛЯ ПРИСЕДАНИЯ</ru>
+        <en>USE KEYBOARD BUTTON "C" FOR SLIDE</en>
+    </key>
+    <key id="CLICK LEFT MOUSE TO ATTACK">
+        <ru>НАЖМИТЕ ЛЕВУЮ МЫШЬ, ЧТОБЫ АТАКОВАТЬ</ru>
+        <en>CLICK LEFT MOUSE TO ATTACK</en>
+    </key>
+    <key id="Pause - P">
+        <ru>Пауза - P(З)</ru>
+        <en>Pause - P</en>
+    </key>
+    <key id="HEALTH">
+        <ru>Здоровье</ru>
+        <en>HEALTH</en>
+    </key>
+    <key id="NOT ENOUGH MONEY">
+        <ru>Не хватает денег</ru>
+        <en>NOT ENOUGH MONEY</en>
+    </key>
+    <key id="MAXIMUM">
+        <ru>МАКСИМУМ</ru>
+        <en>MAXIMUM</en>
+    </key>
+    <key id="NO ADS">
+        <ru>НЕТ ДОСТУПНОЙ РЕКЛАМЫ</ru>
+        <en>NO ADS AVAILABLE</en>
+    </key>
+    <key id="NO INTERNET">
+        <ru>НЕТ ИНТЕРНЕТА</ru>
+        <en>NO INTERNET</en>
+    </key>
+    <key id="BLACK">
+        <ru>Черный</ru>
+        <en>Black</en>
+    </key>
+    <key id="CIAN">
+        <ru>Белый</ru>
+        <en>White</en>
+    </key>
+    <key id="RED">
+        <ru>Оранжевый</ru>
+        <en>Orange</en>
+    </key>
+    <key id="BLUE">
+        <ru>Синий</ru>
+        <en>Blue</en>
+    </key>
+    <key id="BROWN">
+        <ru>Коричневый</ru>
+        <en>Brown</en>
+    </key>
+    <key id="DistanceOf">
+        <ru>Необходимо достичь дистанцию </ru>
+        <en>Locked, need to go a distance of </en>
+    </key>
+</localize>
