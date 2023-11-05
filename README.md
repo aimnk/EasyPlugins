@@ -1,21 +1,21 @@
 # How Install
 ### Easy Interstitial
 ```
-https://github.com/aimnk/Assets/EasyPlugins.git?path=EasyInterstitial
+https://github.com/aimnk/EasyPlugins.git?path=Assets/EasyInterstitial
 ```
 ### Easy Localize
 ```
-https://github.com/aimnk/Assets/EasyPlugins.git?path=EasyLocalize
+https://github.com/aimnk/EasyPlugins.git?path=Assets/EasyLocalize
 ```
 ### Easy Save System
 ```
-https://github.com/aimnk/Assets/EasyPlugins.git?path=EasySaveSystem
+https://github.com/aimnk/EasyPlugins.git?path=Assets/EasySaveSystem
 ```
 ### Easy Scene Loader
 ```
-https://github.com/aimnk/Assets/EasyPlugins.git?path=EasySceneLoader
+https://github.com/aimnk/EasyPlugins.git?path=Assets/EasySceneLoader
 ```
 ### Easy Utils
 ```
-https://github.com/aimnk/Assets/EasyPlugins.git?path=Utils
+https://github.com/aimnk/EasyPlugins.git?path=Assets/Utils
 ```
