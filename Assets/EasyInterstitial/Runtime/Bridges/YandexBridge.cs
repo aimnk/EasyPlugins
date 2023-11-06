@@ -12,8 +12,8 @@ namespace EasyPlugins.Interstitial
 
         public YandexBridge()
         {
-            YandexGame.OpenFullAdEvent += OnOpenInterstitial;
-            YandexGame.RewardVideoEvent += OnShowRewardAd;
+            YG.YandexGame.OpenFullAdEvent += OnOpenInterstitial;
+            YG.YandexGame.RewardVideoEvent += OnShowRewardAd;
         }
 
         private void OnShowRewardAd(int id)
@@ -24,14 +24,14 @@ namespace EasyPlugins.Interstitial
 
         public void ShowInterstitial()
         {
-            YandexGame.FullscreenShow();
+            YG.YandexGame.FullscreenShow();
         }
 
         public void ShowRewardAd(string name)
         {
             if (int.TryParse(name, out var value))
             {
-                YandexGame.RewVideoShow(value);
+                YG.YandexGame.RewVideoShow(value);
             }
             else
             {
@@ -44,8 +44,8 @@ namespace EasyPlugins.Interstitial
 
         public void Dispose()
         {
-            YandexGame.OpenFullAdEvent -= OnOpenInterstitial;
-            YandexGame.RewardVideoEvent -= OnShowRewardAd;
+            YG.YandexGame.OpenFullAdEvent -= OnOpenInterstitial;
+            YG.YandexGame.RewardVideoEvent -= OnShowRewardAd;
         }
     }
 #endif

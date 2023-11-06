@@ -109,11 +109,6 @@ namespace EasyPlugins.Interstitial
 
             (_easyInterstitial as IDisposable)?.Dispose();
         }
-
-        public void OnValidate()
-        {
-            SetDefines(_bridgeType.ToString());
-        }
         
         private void SetDefines(string keyDefine)
         {
@@ -156,7 +151,7 @@ namespace EasyPlugins.Interstitial
     public enum BridgeType
     {
         MockBridge,
-        YG_PLUGIN_YANDEX_GAME,
-        APPODEAL_SDK
+        YandexSDK,
+        Appodeal
     }
 }
