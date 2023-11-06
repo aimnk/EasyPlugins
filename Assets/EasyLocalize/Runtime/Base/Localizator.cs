@@ -1,9 +1,5 @@
 using System.Collections.Generic;
 
-#if YG_PLUGIN_YANDEX_GAME
-using YG;
-#endif
-
 namespace EasyPlugins.Localize
 {
     using System;
@@ -40,8 +36,8 @@ namespace EasyPlugins.Localize
             }
 
 #if YG_PLUGIN_YANDEX_GAME && !UNITY_EDITOR
-            onEventData = () => SwitchLanguage(YandexGame.EnvironmentData.language);
-            YandexGame.GetDataEvent += onEventData;
+            onEventData = () => SwitchLanguage(YG.YandexGame.EnvironmentData.language);
+            YG.YandexGame.GetDataEvent += onEventData;
 #endif
         }
 
@@ -49,7 +45,7 @@ namespace EasyPlugins.Localize
 #if YG_PLUGIN_YANDEX_GAME && !UNITY_EDITOR
         private void OnDestroy()
         {
-            YandexGame.GetDataEvent -= onEventData;
+            YG.YandexGame.GetDataEvent -= onEventData;
         }
 #endif
 
