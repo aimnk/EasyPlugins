@@ -1,16 +1,16 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace EasyLocalize
+namespace EasyLocalize.View
 {
-    [RequireComponent(typeof(Text))]
-    public class LocalizeLegacyText : LocalizeText
+    public class LocalizeLegacyTextCustom : LocalizeText
     {
         protected override string _localizeKey { get; set; }
 
         [SerializeField] private bool isUpper;
+        [SerializeField] private string _advancedText;
         
-
         private Text _text;
 
         protected override void Awake()
@@ -21,6 +21,6 @@ namespace EasyLocalize
         }
 
         protected override void Localize() 
-            => _text.text = isUpper ? GetLocalize().ToUpper() : GetLocalize();
+            => _text.text = isUpper ? String.Format(GetLocalize().ToUpper(), _advancedText): String.Format(GetLocalize(), _advancedText);
     }
 }

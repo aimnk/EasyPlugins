@@ -44,18 +44,20 @@ namespace EasyPlugins.Interstitial
         {
             IEasyInterstitial easyInterstitial = new MockBridge();
 
-#if !UNITY_EDITOR
+
             switch (bridgeType)
             {
-                case BridgeType.Appodeal:
+#if !UNITY_EDITOR && APPODEAL_SDK
+            case BridgeType.Appodeal:
                     easyInterstitial = new AppodealBridge(_appodealKey, _timerPerInterstitial);
                     break;
+#elif !UNITY_EDITOR && YG_PLUGIN_YANDEX_GAME
                 case BridgeType.YandexSDK:
                     easyInterstitial = new YandexBridge();
                     break;
-            }
 #endif
-            
+            }
+
             return easyInterstitial;
         }
         

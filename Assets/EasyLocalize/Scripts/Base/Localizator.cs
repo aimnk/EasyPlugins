@@ -1,6 +1,8 @@
 using System.Collections.Generic;
+using System.Globalization;
+using System.Threading;
 
-namespace EasyPlugins.Localize
+namespace EasyLocalize
 {
     using System;
     using UnityEngine;
@@ -8,6 +10,12 @@ namespace EasyPlugins.Localize
     public class Localizator : MonoBehaviour
     {
         public static event Action onSwitchLanguage = delegate {  };
+
+        [SerializeField]
+        private SystemLanguage _languageEditor;
+
+        [SerializeField]
+        private bool _useAutoFillNotFindLoc = false;
         
         public static ILocalizator Instance => _localizator ??= new LocalizatorXML(_dictionaryTokens[Application.systemLanguage]);
 
@@ -18,10 +26,23 @@ namespace EasyPlugins.Localize
         private static Dictionary<SystemLanguage, string> _dictionaryTokens = new()
         {
             { SystemLanguage.Russian, "ru"}, 
-            { SystemLanguage.English, "en"}
+            { SystemLanguage.English, "en"},
+            { SystemLanguage.Chinese, "zh"},
+            { SystemLanguage.ChineseSimplified, "zh"},
+            { SystemLanguage.ChineseTraditional, "zh"},
+            { SystemLanguage.Spanish, "es"},
+            { SystemLanguage.French, "fr"},
+            { SystemLanguage.German, "de"},
+            { SystemLanguage.Japanese, "ja"},
+            { SystemLanguage.Korean, "ko"},
+            { SystemLanguage.Italian, "it"},
+            { SystemLanguage.Portuguese, "pt"},
+            { SystemLanguage.Dutch, "nl"},
+            { SystemLanguage.Romanian, "ro"},
+            { SystemLanguage.Turkish, "tr"},
+            { SystemLanguage.Indonesian, "id"},
+            { SystemLanguage.Unknown, "en"},
         };
-
-        private Action onEventData;
         
         private void Awake()
         {
@@ -35,20 +56,17 @@ namespace EasyPlugins.Localize
                 DontDestroyOnLoad(this);
             }
 
-#if YG_PLUGIN_YANDEX_GAME && !UNITY_EDITOR
-            onEventData = () => SwitchLanguage(YG.YandexGame.EnvironmentData.language);
-            YG.YandexGame.GetDataEvent += onEventData;
+            if (Application.systemLanguage == SystemLanguage.Unknown)
+            {
+                CultureInfo myCulture = Thread.CurrentThread.CurrentCulture;
+                _localizator = new LocalizatorXML(myCulture.TwoLetterISOLanguageName);
+            }
+            
+#if UNITY_EDITOR
+            _localizator = new LocalizatorXML(_dictionaryTokens[_languageEditor], _useAutoFillNotFindLoc);
 #endif
         }
-
-
-#if YG_PLUGIN_YANDEX_GAME && !UNITY_EDITOR
-        private void OnDestroy()
-        {
-            YG.YandexGame.GetDataEvent -= onEventData;
-        }
-#endif
-
+        
         public static void SwitchLanguage(string tokenLanguage)
         {
             _localizator = new LocalizatorXML(tokenLanguage);

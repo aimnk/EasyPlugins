@@ -1,22 +1,21 @@
+using EasyLocalize;
 using UnityEngine;
-using UnityEngine.UI;
 
-namespace EasyLocalize
+namespace Imported_Assets.EasyLocalize.View
 {
-    [RequireComponent(typeof(Text))]
-    public class LocalizeLegacyText : LocalizeText
+    [RequireComponent(typeof(TextMesh))]
+    public class LocalizeMeshText : LocalizeText
     {
         protected override string _localizeKey { get; set; }
 
         [SerializeField] private bool isUpper;
         
-
-        private Text _text;
+        private TextMesh _text;
 
         protected override void Awake()
         {
             base.Awake();
-            _text = GetComponent<Text>();
+            _text = GetComponent<TextMesh>();
             _localizeKey = _text.text;
         }
 

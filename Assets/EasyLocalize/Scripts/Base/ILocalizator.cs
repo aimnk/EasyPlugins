@@ -1,4 +1,4 @@
-namespace EasyPlugins.Localize
+namespace EasyLocalize
 {
     public interface ILocalizator
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace EasyPlugins.Localize
+namespace EasyLocalize
 {
     using UnityEngine;
     
