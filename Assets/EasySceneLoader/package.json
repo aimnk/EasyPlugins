@@ -1,9 +1,13 @@
 {
  "name": "com.aimnk.easysceneloader",
     "displayName": "Easy SceneLoader",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Aimnk Dev",
     "description": "Scene Loader",
   "dependencies": {
-  }
+  },
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/aimnk/EasyPlugins.git?path=Assets/EasySceneLoader"
+    }
 }

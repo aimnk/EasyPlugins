@@ -1,0 +1,13 @@
+{
+ "name": "com.aimnk.easywindowhandler",
+    "displayName": "Easy WindowHandler",
+    "version": "1.0.0",
+    "author": "Aimnk Dev",
+    "description": "Scene Loader",
+  "dependencies": {
+  },
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/aimnk/EasyPlugins.git?path=Assets/EasyWindowHandler"
+    }
+}
