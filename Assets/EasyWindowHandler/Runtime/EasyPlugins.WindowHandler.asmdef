@@ -1,0 +1,14 @@
+{
+    "name": "EasyPlugins.WindowHandler",
+    "rootNamespace": "",
+    "references": ["GUID:f34fe86d615479d499af48771b5a752f"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
